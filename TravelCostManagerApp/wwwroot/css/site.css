@@ -51,3 +51,19 @@ body {
         filter: blur(2px);
     }
 
+.submitButtonTripForm
+{
+    margin-top:25px;
+    margin-left:135px;
+    border-radius:15px;
+}
+.footer 
+{
+    display:flex;
+    
+}
+.social
+{
+    margin-left:30px;
+}
+
