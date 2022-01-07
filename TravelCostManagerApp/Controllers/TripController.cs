@@ -8,5 +8,10 @@ namespace TravelCostManagerApp.Controllers
         {
             return View();
         }
+
+        public IActionResult CreateTeam()
+        {
+            return View();
+        }
     }
 }

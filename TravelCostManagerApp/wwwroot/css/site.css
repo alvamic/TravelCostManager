@@ -33,6 +33,7 @@ body {
     width: 600px;
     height: 600px;
     color:white;
+    
 }
 
 .card:before {
@@ -66,4 +67,33 @@ body {
 {
     margin-left:30px;
 }
+.addMember {
+    width: 200px;
+    margin-top: 25px;
+    margin-left: 175px;
+    border-radius: 15px;
+}
+
+#yourTeamTable, #yourTeamLabel {
+    visibility: hidden;
+    color: white;
+    
+}
+
+#yourTeamTable {
+    --bs-table-hover-color: whitesmoke;
+    --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
+    
+}
+.my-custom-scrollbar {
+    position: relative;
+    height: 250px;
+    overflow: auto;
+}
+
+.table-wrapper-scroll-y {
+    display: block;
+}
+
+
 

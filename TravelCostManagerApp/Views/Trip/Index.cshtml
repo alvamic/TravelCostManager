@@ -11,7 +11,7 @@
                 <h1 class="display-4 card-title text-center">Welcome, Lets Create your trip!</h1>
             </div>
             <div class="row">
-                <form class="formBackground offset-lg-2 text-start" asp-action="Create">
+                <form class="formBackground offset-lg-2 text-start" asp-action="CreateTeam">
                     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                     <div class="form-row">
                         <div class="form-group col-md-8">
@@ -27,7 +27,7 @@
                             <input @*asp-for="EndDate"*@ type="date" class="form-control" id="inputTripEndDate" placeholder="Enter trip end date">
                         </div>
                     </div>
-                    <button type="button" class="btn btn-primary btn-rounded submitButtonTripForm ">Submit</button>
+                    <button type="submit" class="btn btn-primary btn-rounded submitButtonTripForm ">Submit</button>
                 </form>
             </div>
 
@@ -37,9 +37,6 @@
 
 
     </div>
-
-
-
 
 
 </div>
